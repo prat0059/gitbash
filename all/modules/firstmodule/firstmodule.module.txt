@@ -1,0 +1,20 @@
+  $items['firstmodule-page'] = array(
+   
+ 'page callback' => 'firstmodule_page',
+   
+ 'access arguments' => array('access content'),
+  
+  'type' => MENU_CALLBACK,
+
+  );
+ 
+ return $items;
+
+}
+
+
+function firstmodule_page() {
+ 
+ return "Hello, world!";
+
+}
